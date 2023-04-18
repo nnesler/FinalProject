@@ -1,0 +1,78 @@
+.wrapper {
+    background-color: #fafbfb;
+  }
+  
+  header {
+    background-color: #61A6F2;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  nav {
+    background-color: navy;
+    text-indent: 10px;
+    word-spacing: 30px;
+    margin: 5px;
+    padding-bottom: 20px;
+    border-bottom: 5px solid #61A6F2;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  /* unvisited link */
+  a:link {
+    color: #6381DB;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #f2f2f2;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #c3ef5a;
+    background-color: blue;
+    padding: 6px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: whitesmoke;
+  }
+  
+  main {
+    background-color: #f2f2f2;
+  }
+  
+  footer {
+    background-color: #61A6F2;
+    padding: 25px;
+    text-align: center;
+    color: whitesmoke;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 50%;
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #D6E4EA;
+    color: grey;
+  }
+  
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
