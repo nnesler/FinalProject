@@ -1,78 +1,53 @@
-.wrapper {
-    background-color: #fafbfb;
-  }
-  
-  header {
-    background-color: #61A6F2;
-    padding: 20px;
-    text-align: center;
-    color: whitesmoke;
-  }
-  
-  nav {
-    background-color: navy;
-    text-indent: 10px;
-    word-spacing: 30px;
-    margin: 5px;
-    padding-bottom: 20px;
-    border-bottom: 5px solid #61A6F2;
-  }
-  
-  a {
-    text-decoration: none;
-    font-size: 1.2rem;
-  }
-  
-  /* unvisited link */
-  a:link {
-    color: #6381DB;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: #f2f2f2;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #c3ef5a;
-    background-color: blue;
-    padding: 6px;
-  }
-  
-  /* selected link */
-  a:active {
-    color: whitesmoke;
-  }
-  
-  main {
-    background-color: #f2f2f2;
-  }
-  
-  footer {
-    background-color: #61A6F2;
-    padding: 25px;
-    text-align: center;
-    color: whitesmoke;
-  }
-  
-  table {
-    border-collapse: collapse;
-    width: 50%;
-    background-color: white;
-    border: 1px solid black;
-  }
-  
-  th {
-    background-color: #D6E4EA;
-    color: grey;
-  }
-  
-  td {
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f2f2f2;
-  }
+/* Set the background color and font for the entire website */
+body {
+  background-color: #f1f6fe;
+  font-family: Arial, sans-serif;
+}
+
+/* Set the font color and size for all headings */
+h1{
+  color: #2d6187;
+  font-size: 2.5em;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #2d6187;
+  font-size: 1.5em;
+}
+
+/* Set the font color and size for all paragraphs */
+p {
+  color: #333333;
+  font-size: 1em;
+}
+
+/* Set the color and style for all links */
+a {
+  color: #2d6187;
+  text-decoration: none;
+  border-bottom: 2px solid #2d6187;
+}
+
+/* Set the color and style for all links when hovered over */
+a:hover {
+  color: #ffffff;
+  background-color: #2d6187;
+  border-bottom: none;
+}
+
+/* Set the style for all buttons */
+button {
+  background-color: #2d6187;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1em;
+}
+
+/* Set the style for all buttons when hovered over */
+button:hover {
+  background-color: #ffffff;
+  color: #2d6187;
+  cursor: pointer;
+}
