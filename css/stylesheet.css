@@ -10,10 +10,37 @@ h1{
   font-size: 2.5em;
 }
 
-h2, h3, h4, h5, h6 {
+h2{
   color: #2d6187;
   font-size: 1.5em;
 }
+
+h3, h4, h5, h6 {
+  color: #f1f6fe;
+  font-size: 1em;
+}
+
+nav {
+  background-color: #2d6187;
+  margin: 10px;
+  list-style: none;
+  padding-bottom: 10px;
+  padding-top: 5px;
+  border-bottom: 1px solid lightblue;
+}
+
+nav ul {
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  padding: 10px;
+}
+
+a{
+
+  margin-right: 50px;
+  
+  }
 
 /* Set the font color and size for all paragraphs */
 p {
@@ -23,9 +50,9 @@ p {
 
 /* Set the color and style for all links */
 a {
-  color: #2d6187;
+  color: #f1f6fe;
   text-decoration: none;
-  border-bottom: 2px solid #2d6187;
+  border-bottom: 2px solid #f1f6fe;
 }
 
 /* Set the color and style for all links when hovered over */
@@ -51,3 +78,12 @@ button:hover {
   color: #2d6187;
   cursor: pointer;
 }
+
+footer {
+  background-color: #2d6187;
+  margin: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid lightblue;
+}
+
